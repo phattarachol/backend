@@ -2,7 +2,7 @@
 // อนุญาตเฉพาะ POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // กำหนดอีเมลผู้รับ
-    $to = "your_email@example.com";
+    $to = "tobtabphx@gmail.com";
 
     // รับข้อมูลจากฟอร์ม
     $name = htmlspecialchars($_POST['name'] ?? 'Unknown');
